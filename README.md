@@ -21,7 +21,7 @@ The approach presented here is a flexible framework. Different sets of features 
 This project obtained currently the best combination of the framework elements that produces the highest entity-level F1 score on the SROIE testing dataset. The combination comprises visual, textual, and positional features, where visual and textual features are encoded using the ResNet-18 and MPNet pre-trained models, and the classification model with the hyperparameter tuning was the XGBoost classifier.
 
 <p align="center">
-<img src="https://github.com/Faranio/master-thesis-code/blob/master/images/ProposedFramework.png" width="550">
+<img src="./images/ProposedFramework.png">
 </p>
 
 Different combinations of the framework elements are presented in the paper. Certain metrics such as the elapsed time for training and testing, memory size, entity-level precision, recall, and F1 score are recorded for each experiment. These results were compared with the baseline algorithms such as BERT-base, RoBERTa-base, and LayoutLM v1 in the paper.
